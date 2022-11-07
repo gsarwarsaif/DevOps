@@ -1,7 +1,7 @@
 pipeline{
     agent any
     environment {
-        PATH = "$PATH:/var/lib/jenkins/workspace/sonarqubepipeline:/usr/share/maven"
+        PATH = "$PATH:/var/lib/jenkins"
     }
     stages{
        stage('GetCode'){
