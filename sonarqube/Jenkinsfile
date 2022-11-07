@@ -1,7 +1,7 @@
 pipeline{
     agent any
     environment {
-        PATH = "$PATH:/var/lib/jenkins"
+        PATH = "$PATH:/usr/share/maven/conf"
     }
     stages{
        stage('GetCode'){
