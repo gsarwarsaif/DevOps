@@ -1,7 +1,7 @@
 pipeline{
     agent any
     environment {
-        PATH="$PATH:/usr/share/bin"
+        PATH="$PATH:/opt/usr/share/bin"
     }
     stages{
        stage('GetCode'){
